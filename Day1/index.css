@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin:0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+
+    
+}
+
+.navbar
+{
+    height: 8vh;
+    width: 100vw;
+    background-color:rgb(151, 91, 207);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.navtitle
+{
+    justify-content: end;
+    left:0;
+}
+
+.navlinks
+{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    width: 45vw;
+    /* justify-content: end;
+    cursor: pointer; */
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+}

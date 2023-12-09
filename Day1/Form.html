@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Form</title>
+</head>
+<body>
+
+   
+    <!-- <div class = "form" style = "background-color: rgb(227, 148, 148); text-align :center;" > -->
+        <form action="#" class ="login" onsubmit="register()">
+            
+            <span class = "user">
+                <i class="ri-user-fill"></i>
+            </span>
+            <input type="text" name="Username" id="uname" placeholder="Username" class = "input"  >
+            
+            <span>
+                <i class="ri-mail-fill"></i>
+            </span>
+            <input type="email" name="Email" id="" placeholder="Email" class = "input">
+            
+            <input type="password" name="Password" id="password" placeholder="Password" class = "input">
+            <input type="password" name="Password" id="Cpassword" placeholder="Confirm Password" class = "input">
+            
+            <input type="number" name="age" id="age" placeholder="Age" class = "input">
+            
+            <input type="tel" name="Number" id="number" placeholder="Contact Number" class = "input">
+           
+            <input type="text" name="Address" id="" placeholder="Address" class = "input">
+            
+            <input type="date" name="Date" id="date" class = "input">
+
+            <input type="submit" value="Submit" class = "submit">
+            
+        </form>
+    <!-- </div> -->
+    <script>
+
+        function register()
+        {
+            let name = document.getElementById("uname").value;
+            let pswd = document.getElementById("password").value;
+            let cpswd = document.getElementById("Cpassword").value;
+
+            if(confirm("Sure?"))
+            {
+                if(pswd == cpswd)
+                    alert("Password matched");
+                else
+                    alert("Password mismatch");
+            }
+            else
+                alert("Failed!")
+            
+        }
+    </script>
+    
+</body>
+</html>

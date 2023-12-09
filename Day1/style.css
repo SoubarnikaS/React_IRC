@@ -1,0 +1,82 @@
+body
+{
+    height: 100vh;
+    width: 100vw;
+    margin:0; 
+    /* margin 0 to avoid default 8px margin alloted by system */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(60deg,#3a1c71, #d76d77, #ffaf7b); */
+    background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+    /* background-color: rgb(226, 190, 131); */
+    opacity: 77%;
+    /* background-color: rgb(83, 142, 142); */
+    /* background-color: rgb(65, 154, 154); */
+    /* background-color: rgb(136, 154, 65); */
+}
+
+::placeholder
+{
+    color:rgb(52, 50, 50);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.user
+{
+    position: fixed;
+    left : 37rem;
+    top : 10rem;
+    
+
+}
+.login
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* centre of scrreen  */
+    height: 75vh;
+    width: 450px;
+    flex-direction: column;
+    /* for align one below other */
+    gap: 0.6rem;
+    border-radius: 10px;
+    /* background-color: #ffd3d8; */
+    background: linear-gradient(to right, #d9a7c7, #fffcdc);
+    /* background-color: rgb(241, 235, 181); */
+    /* background-color: rgb(233, 226, 122); */
+    /* background-color: rgb(187, 234, 218); */
+    /* opacity: 98%; */
+}
+
+.input
+{
+    padding: 0.7rem;
+    background-color: rgb(248, 248, 255);
+    /* gap:0.2rem; */
+    width:55%;
+    /* color: rgb(226, 26, 66); */
+    border-radius: 5px;
+    font-weight: 770;
+    border-style: none;
+    outline: none;
+}
+
+.submit
+{
+    width: 55%;
+    height: 2.3rem;
+    border-style: none;
+    border-radius: 10px;
+    /* gap: 7rem; */
+    padding: 4px;
+    margin-top: 9px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submit:hover
+{
+    background-color: #ffacb4;
+} 
