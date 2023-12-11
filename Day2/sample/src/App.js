@@ -1,10 +1,12 @@
 import './Assests/CSS/style.css'
+
 // import './Assests/CSS/registerStyle.css'
 // import Nav from './Components/nav'
 
 function App() {
     return (
         <>
+        {/* <Nav/> */}
             <div class="navbar">
                 <ul>
                     <li><a href="#">Login</a></li>
@@ -13,7 +15,7 @@ function App() {
             </div>
 
 
-                <form action="#" class="login" onsubmit="checkLogin()">
+                <form action="#" class="login">
                     <h1>Login</h1>
                     <input type="text" name="Username" id="usernameID" placeholder="Username" class="input" />
                     <input type="password" name="Password" id="passwordID" placeholder="Password" class="input" />

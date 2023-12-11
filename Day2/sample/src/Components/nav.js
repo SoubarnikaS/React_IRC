@@ -3,12 +3,12 @@
 function nav() {
     return (
         <>
-            {/* <header>
-                <nav class="navbar">
-                    <a href="http://127.0.0.1:5500/login.html">Login</a>
-                    <a href="http://127.0.0.1:5500/register.html">Register</a>
-                </nav>
-            </header> */}
+            <div className = "navbar">
+                <ul>
+                    <li className = "link"><a href="#">Login</a></li>
+                    <li className = "link"><a href="#">Register</a></li>
+                </ul>
+            </div>
 
             <form action="#" class="registerForm">
                 <h1>Register</h1>
