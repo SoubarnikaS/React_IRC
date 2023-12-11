@@ -1,0 +1,81 @@
+body
+{
+    height: 100vh;
+    width: 100vw;
+    margin:0; 
+    display: flex;
+    /* align-items:center; */
+    font-family:Perpetua;
+    overflow: hidden;
+
+    /* background-color: #f6ecfb; */
+
+    /* background-color: #ffc8c8; */
+
+    /* background-color:rgb(227, 216, 201); */
+    opacity: 77%;
+}
+
+.title{
+    justify-content: end;
+}
+.navbar{
+    
+    /* background-image: linear-gradient(to top, #c2eac6 0%, #d0f1ce 100%); */
+    /* background-image: linear-gradient(to right, #f3b666, #fad29f,#f8cf75c7); */
+    /* background-image: linear-gradient(to right,#8b8686,#F9EEEE,#F9EEEE,#a09c9c) ; */
+    background: linear-gradient(45deg,#916128,#a37a3c,#aa8444,#b49858,#e6d789,#c8ad67,#a57d3e,#a37a3c,#916128);
+    /* background-image: linear-gradient(to right, #deeaeb, #f4e8d6,#e4dfd3c7); */
+
+    width: 98.1vw;
+    margin-top:-27px;
+    padding:14px;
+    height: 9vh;
+    position: sticky;
+}
+.title{
+    /* justify-content: left; */
+    top:-100rem;
+    /* font-size: xx-large; */
+}
+
+.nav{
+   margin-top: -51px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    font-size:xx-large;
+    font-weight: 560;
+    font-family:Perpetua;
+    /* align-content: center; */
+    
+}
+
+.link a{
+    color:rgb(7, 7, 7);
+    text-decoration: none;
+    position: relative;
+}
+
+.link a::after{
+    content: " ";
+    top:32px;
+    /* right:3px; */
+    left:3px;
+    position: absolute;
+    height: 2px;
+    width:0%;
+    transition: 0.5s;
+    /* transform-origin: bottom right;
+    /* transition: transform 0.25 ease-out ; */
+    background-color: rgb(16, 15, 15);
+    /* background: linear-gradient(45deg,#916128,#a37a3c,#aa8444,#b49858,#e6d789,#c8ad67,#a57d3e,#a37a3c,#916128); */
+
+}
+
+.link a:hover::after{
+    width: 100%;
+}

@@ -1,0 +1,46 @@
+.Phrase {
+   /* color:#a37a3c;00 */
+   /* color: rgb(211, 156, 38); */
+   color: #af7d34;
+   font-size:3rem;
+   padding: 77px;
+   width:45%;
+   font-weight: 900;
+   /* background-color:red; */
+    /* color: linear-gradient(45deg,#916128,#a37a3c,#aa8444,#b49858,#e6d789,#c8ad67,#a57d3e,#a37a3c,#916128); */
+}
+
+.p2{
+    margin-bottom: -50px;
+    margin-top: 1px;
+}
+
+.content{
+    /* margin:40px 260px 90px 9px; */
+    height: 57px; 
+    width:50px;
+    align-items: center;
+    /* background-color:blue; */
+}
+.pic{
+    background-color: #af7d34;
+    height: 3rem;
+    width:45rem;
+    /* margin-bottom: 20px; */
+}
+.pic img{
+    height:600px;
+    width:500px;
+    margin-left: 52rem;
+    margin-top: -13.3rem;
+    border-radius: 20px;
+    box-shadow:
+  2.1px 2.2px 2.3px -4px rgba(0, 0, 0, 0.045),
+  5.1px 5.4px 5.5px -4px rgba(0, 0, 0, 0.065),
+  9.6px 10.1px 10.4px -4px rgba(0, 0, 0, 0.08),
+  17.2px 18.1px 18.5px -4px rgba(0, 0, 0, 0.095),
+  32.2px 33.8px 34.7px -4px rgba(0, 0, 0, 0.115),
+  77px 81px 83px -4px rgba(0, 0, 0, 0.16)
+;
+
+}
