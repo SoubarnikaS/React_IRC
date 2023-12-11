@@ -3,10 +3,11 @@ body
     height: 100vh;
     width: 100vw;
     margin:0; 
+
     display: flex;
     /* align-items:center; */
     font-family:Perpetua;
-    overflow: hidden;
+    overflow-x: hidden;
 
     /* background-color: #f6ecfb; */
 
@@ -16,31 +17,63 @@ body
     opacity: 77%;
 }
 
-.title{
-    justify-content: end;
-}
+.patterns {
+    height: 100vh;
+  }
+  
+  
+  
+  svg text {
+    font-family: Perpetua;
+    letter-spacing: 0px;
+    stroke: #ffa5d8;
+    font-size: 40px;
+    font-weight: 100;
+    stroke-width: 1;
+   
+    animation: textAnimate 1.7s infinite alternate;
+    
+  }
+  
+  @keyframes textAnimate {
+    0% {
+      stroke-dasharray: 0 50%;
+      stroke-dashoffset:  20%;
+      fill:hsl(189, 68%, 75%)
+  
+    }
+    
+    100% {
+      stroke-dasharray: 50% 0;
+      stroke-dashoffstet: -20%;
+      fill: hsla(189, 68%, 75%,0%)
+    }
+    
+  }
+  
+  
+  
 .navbar{
     
-    /* background-image: linear-gradient(to top, #c2eac6 0%, #d0f1ce 100%); */
-    /* background-image: linear-gradient(to right, #f3b666, #fad29f,#f8cf75c7); */
-    /* background-image: linear-gradient(to right,#8b8686,#F9EEEE,#F9EEEE,#a09c9c) ; */
-    background: linear-gradient(45deg,#916128,#a37a3c,#aa8444,#b49858,#e6d789,#c8ad67,#a57d3e,#a37a3c,#916128);
-    /* background-image: linear-gradient(to right, #deeaeb, #f4e8d6,#e4dfd3c7); */
 
-    width: 98.1vw;
-    margin-top:-27px;
+    background: linear-gradient(to right, #b8884d, #aa80f3);
+    /* background: linear-gradient(45deg,#916128,#a37a3c,#aa8444,#b49858,#e6d789,#c8ad67,#a57d3e,#a37a3c,#916128); */
+    
+
+    width: 98vw;
+    margin-top:-29px;
     padding:14px;
     height: 9vh;
     position: sticky;
 }
-.title{
+/* .title{ */
     /* justify-content: left; */
-    top:-100rem;
+    /* top:-100rem; */
     /* font-size: xx-large; */
-}
+/* } */
 
 .nav{
-   margin-top: -51px;
+   margin-top : -705px;
 }
 ul{
     list-style: none;
@@ -55,7 +88,9 @@ ul{
 }
 
 .link a{
-    color:rgb(7, 7, 7);
+    /* color:rgb(7, 7, 7); */
+    color:#ffffffd8;
+    /* color:hsl(189, 68%, 75%); */
     text-decoration: none;
     position: relative;
 }
@@ -66,12 +101,13 @@ ul{
     /* right:3px; */
     left:3px;
     position: absolute;
-    height: 2px;
+    height: 2.5px;
     width:0%;
     transition: 0.5s;
     /* transform-origin: bottom right;
     /* transition: transform 0.25 ease-out ; */
-    background-color: rgb(16, 15, 15);
+    background-color: #fab9ded8;
+    /* background-color: #efe6ebd8; */
     /* background: linear-gradient(45deg,#916128,#a37a3c,#aa8444,#b49858,#e6d789,#c8ad67,#a57d3e,#a37a3c,#916128); */
 
 }
