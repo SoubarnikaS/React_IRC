@@ -56,7 +56,8 @@
 .tasks{
     /* background-color: #916128; */
     background: #916128; /* Fallback color if gradients are not supported */
-    background: linear-gradient(to right, #b8884d, #c6aeef);
+    /* background: linear-gradient(to right, #b8884d, #c6aeef); */
+    background: linear-gradient(to right, #b8884d, #aa80f3);
     /* color:#f20fd7d7; */
     /* background-color:hsl(60, 64%, 39%); */
     /* background-color:#a57d3e; */
