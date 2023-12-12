@@ -27,6 +27,7 @@ function Home() {
                 </div>
 
                 <div className="tasks">
+                    <input type = "submit" value = "Submit" class = "Button"/>
                     {/* See what's possible with UNote */}
                 </div>
             </div>
