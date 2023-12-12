@@ -1,12 +1,18 @@
-import ParentProp from './Components/ParentProp';
-import ChildProp from './Components/ChildProp';
-import State from './Components/State';
+// import ParentProp from './Components/ParentProp';
+// import ChildProp from './Components/ChildProp';
+// import State from './Components/State';
+import Card from "./Components/Card";
+import './Assests/CSS/Card.css'
+import './Assests/CSS/Temp.css'
+import Temp from "./Components/Temp";
 function App() {
   return (
     <>
-    <ParentProp/>
+    <Temp/>
+    <Card/>
+    {/* <ParentProp/>
     <ChildProp/>
-    <State/>
+    <State/> */}
     {/* Hello World */}
     </>
   );

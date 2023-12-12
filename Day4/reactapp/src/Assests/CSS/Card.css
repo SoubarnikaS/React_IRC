@@ -1,0 +1,100 @@
+body{
+
+    background-color: #4285F4;
+    overflow: hidden;
+}
+
+.wrapper{
+    display:flex;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card {
+    width: 300px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 13px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 17px;
+    box-shadow:
+  2.3px 3px 2.2px rgba(0, 0, 0, 0.028),
+  5.5px 7.1px 5.3px rgba(0, 0, 0, 0.039),
+  10.4px 13.4px 10px rgba(0, 0, 0, 0.049),
+  18.5px 23.9px 17.9px rgba(0, 0, 0, 0.058),
+  34.7px 44.7px 33.4px rgba(0, 0, 0, 0.071),
+  83px 107px 80px rgba(0, 0, 0, 0.1)
+;
+  }
+  
+  #cookieSvg {
+    width: 50px;
+  }
+  
+  #cookieSvg g path {
+    fill: rgb(97, 81, 81);
+  }
+  
+  .cookieHeading {
+    font-size: 1.8em;
+    font-weight: 800;
+    color: rgb(26, 26, 26);
+  }
+  
+  .cookieDescription {
+    margin-top:-10px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    color: rgb(96, 78, 78);
+  }
+  
+  .buttonContainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+  }
+  
+  .acceptButton {
+    width: 80px;
+    height: 30px;
+    background-color: #7b57ff;
+    transition-duration: .2s;
+    border: none;
+    color: rgb(241, 241, 241);
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 20px;
+  }
+  
+  .declineButton {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(218, 218, 218);
+    transition-duration: .2s;
+    color: rgb(46, 46, 46);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 20px;
+  }
+  
+  .declineButton:hover {
+    background-color: #ebebeb;
+    transition-duration: .2s;
+  }
+  
+  .acceptButton:hover {
+    background-color: #9173ff;
+    transition-duration: .2s;
+  }

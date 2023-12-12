@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 const State =()=>{
-    // const [data, setData] = useState(0);
+    const [data, setData] = useState(0);
     // const [data, setData] = useState({
     //     name:'sou'
         
