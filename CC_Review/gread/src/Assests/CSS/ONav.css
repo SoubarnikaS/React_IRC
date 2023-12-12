@@ -1,0 +1,51 @@
+header{
+    height:10vh;
+    width:100vw;
+    margin-top:-16px;
+    margin-left:0px;
+    background-color: brown;
+    position: sticky;
+}
+
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+.naviLinks{
+    text-decoration: none; 
+    display: flex; 
+}
+
+.brand{
+    justify-content: left;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: darkorange;
+}
+
+.NavLink{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.logout{
+    justify-content: end;
+    margin-left:90vw;
+    margin-top: -7.7vh;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logout button{
+    height:40px;
+    font-size: 1.2rem;
+    width:90px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(252, 196, 153);
+    color: rgb(183, 11, 45);
+    cursor: pointer;
+}

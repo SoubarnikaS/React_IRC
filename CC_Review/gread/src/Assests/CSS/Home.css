@@ -1,0 +1,46 @@
+.homeWrapper{
+    display: flex;
+    /* width:50vw; */
+    height:40vh;
+    /* background-color: black; */
+}
+
+.sidePanel{
+    background-color: rgb(237, 109, 109);
+    height:90vh;
+    width:25vw;
+}
+
+.bestBookBG{
+    /* background-color: rgba(186, 160, 160, 0.5); */
+    /* height:30vh;
+    width:80vw; */
+    /* margin:3vw */
+    z-index:-1;
+}
+.bestBook{
+    background-color: rgba(164, 128, 128, 0.5);
+    height:30vh;
+    width:80vw;
+    margin:3vw;
+    z-index:1;
+}
+
+.bestBook img{
+    height:35vh;
+    width:70vw;
+}
+
+.Desc{
+    height:36vh;
+    width:70vw;
+    margin-left:25em;
+    margin-top:4rem;
+    background-color: blue;
+    display: flex;
+
+}
+
+.title{
+    
+}

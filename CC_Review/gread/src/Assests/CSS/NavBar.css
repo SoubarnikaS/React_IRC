@@ -1,0 +1,27 @@
+header{
+    height:10vh;
+    width:100vw;
+    margin-top:-16px;
+    margin-left:0px;
+    background-color: brown;
+    position: sticky;
+}
+
+.naviLinks{
+    text-decoration: none; 
+    display: flex; 
+}
+
+.brand{
+    justify-content: left;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: darkorange;
+}
+
+.NavLink{
+    list-style: none;
+    text-decoration: none;
+    
+}
