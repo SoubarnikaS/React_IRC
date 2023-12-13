@@ -14,8 +14,7 @@ const ONav =()=>{
             <ul class = "logout">
                     <Link to = '/' >
                         <li className="newLinks">
-                            <button>Logout
-                                </button>
+                            <button>Logout</button>
                         </li>
                     </Link>
             </ul>
