@@ -1,16 +1,36 @@
 import ONav from "./ONav";
-import best from '../Assests/Images/bestBook.png'
+import genre from '../Assests/Images/genre.png'
 
-const Home =()=>{
-    return(
+const Home = () => {
+    return (
         <>
-        <ONav/>
-        <div className="homeWrapper">
-
-            <div className = "sidePanel">
-
-            </div>
-            <div className="bestBook">
+            <ONav />
+            <div className="homeWrapper">
+                <img src = {genre}/>
+                {/* <div class="categories">
+                    <div class="cat1">
+                        <div class="book">
+                            <p>Crime-Thriller</p>
+                            <div class="cover">
+                                <img src={"https://www.explore.com/img/explore-share-image-1280x720.png"}></img>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <p>Scientific</p>
+                            <div class="cover">
+                                <img src={"https://www.explore.com/img/explore-share-image-1280x720.png"}></img>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <p>Fantasy</p>
+                            <div class="cover">
+                                <img src={"https://www.explore.com/img/explore-share-image-1280x720.png"}></img>
+                            </div>
+                        </div>
+                    </div> */}
+                {/* </div> */}
+            </div> 
+                {/* <div className="bestBook">
                 <div className="bestBookBG">
                     <img src = {best} alt = "img"/>
                 </div>
@@ -22,9 +42,9 @@ const Home =()=>{
             </div>
             <div className="title">
                 Deciding what to read next?
-            </div>
+            </div> */}
 
-        </div>
+           
         </>
     )
 }
