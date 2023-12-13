@@ -1,39 +1,61 @@
 .homeWrapper{
-    display: flex;
+    /* display: flex; */
     /* width:50vw; */
     height:90vh;
+    overflow: hidden;
     /* background-color: black; */
 }
+.homeWrapper {
+    position: relative;
+  }
+  
+  .black-box {
+    position: relative;
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 100vw;
+    /* background-color: black; */
+  }
+  
+  .gray-box {
+    position: absolute;
+    background: rgba(232, 178, 27, 0.8);
+    height: 390px;  
+    width: 90%;
+    left: 70px;
+    top: 120px;
 
-.sidePanel{
-    background-color: rgb(237, 109, 109);
-    height:90vh;
-    width:23vw;
+  }
+
+
+.gray-box p{
+    font-size: x-large;
+    margin-top:-260px;
+    max-width:900vw;
+    margin-left: 310px;
+
 }
 
-.bestBookBG{
-    /* background-color: rgba(186, 160, 160, 0.5); */
-    /* height:30vh;
-    width:80vw; */
-    /* margin:3vw */
-    z-index:-1;
+.desc{
+    position: absolute;
+    height:330px;
+    width:220px;
+    background-color: black;
 }
-.bestBook{
-    /* background-color: rgba(164, 128, 128, 0.5); */
-    height:30vh;
-    width:80vw;
-    margin:3vw;
-    z-index:1;
+.gray-box img{
+    height:330px;
+    width:220px;
+    margin: 25px;
 }
-
 /* .bestBook img{
     height:39vh;
     width:68vw;
 } */
 
 img{
-    height:40vh;
-    width:90vw;
+    height:90vh;
+    width:100vw;
+    z-index: -1;
     /* border-radius: 10px; */
 }
 

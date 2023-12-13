@@ -6,45 +6,20 @@ const Home = () => {
         <>
             <ONav />
             <div className="homeWrapper">
-                <img src = {genre}/>
-                {/* <div class="categories">
-                    <div class="cat1">
-                        <div class="book">
-                            <p>Crime-Thriller</p>
-                            <div class="cover">
-                                <img src={"https://www.explore.com/img/explore-share-image-1280x720.png"}></img>
-                            </div>
-                        </div>
-                        <div class="book">
-                            <p>Scientific</p>
-                            <div class="cover">
-                                <img src={"https://www.explore.com/img/explore-share-image-1280x720.png"}></img>
-                            </div>
-                        </div>
-                        <div class="book">
-                            <p>Fantasy</p>
-                            <div class="cover">
-                                <img src={"https://www.explore.com/img/explore-share-image-1280x720.png"}></img>
-                            </div>
-                        </div>
-                    </div> */}
-                {/* </div> */}
-            </div> 
-                {/* <div className="bestBook">
-                <div className="bestBookBG">
-                    <img src = {best} alt = "img"/>
+                <img src={"https://images.gr-assets.com/misc/1644957730-1644957730_goodreads_misc.png"} />
+                <div class="black-box">Black box</div>
+                <div class="gray-box">
+                    <img src={"https://cdn.kobo.com/book-images/7292758c-a84a-4c53-80e4-73dd3a45c404/1200/1200/False/gone-girl.jpg"} />
+                    <p>
+                        Who are you?What have we done to each other?
+                        These are the questions Nick Dunne finds himself asking on the morning of his fifth wedding anniversary when his wife Amy suddenly disappears.
+                        The police suspect Nick. Amy's friends reveal that she was afraid of him, that she kept secrets from him. He swears it isn't true. A police examination of his computer shows strange searches. He says they weren't made by him. And then there are the persistent calls on his mobile phone.
+                    </p>
                 </div>
-            </div>
-        </div>
-        <div className="Desc">
-            <div className="titleD">
-            You’re in the right place. Tell us what titles or genres you’ve enjoyed in the past, and we’ll give you surprisingly insightful recommendations.
-            </div>
-            <div className="title">
-                Deciding what to read next?
-            </div> */}
 
-           
+            </div>
+
+
         </>
     )
 }
