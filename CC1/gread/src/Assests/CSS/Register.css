@@ -13,7 +13,8 @@
 }
 
 .register{
-    background-color:rgb(204, 65, 65);
+    /* background-color:rgb(204, 65, 65); */
+    background-image: linear-gradient(to right, #000000, #0c0c0c, #151414, #1c1b1b, #232121, #252323, #272525, #292727, #262525, #242222, #212020, #1f1e1e);
     height:80vh;
     width:90vh;
     border-radius: 40px;
@@ -48,11 +49,15 @@
     box-shadow:
   2.8px 2.8px 2.2px rgba(0, 0, 0, 0.045),
   6.7px 6.7px 5.3px rgba(0, 0, 0, 0.065),
-  12.5px 12.5px 10px rgba(0, 0, 0, 0.08),
+  12.5px 12.5px 10px rgba(219, 198, 11, 0.08),
   22.3px 22.3px 17.9px rgba(0, 0, 0, 0.095),
   41.8px 41.8px 33.4px rgba(0, 0, 0, 0.115),
   100px 100px 80px rgba(0, 0, 0, 0.16)
 ;
+}
+
+::placeholder{
+    color:#454444;
 }
 
 .registerF{
@@ -63,7 +68,7 @@
 }
 
 .registerInput{
-    background-color: #f3eded;
+    background-color: #d3cdcd;
     border-radius: 4px;
     font-weight: 770;
     border-style: none;
@@ -73,10 +78,14 @@
 }
 
 .header{
-    color:#fbcc70;
+    /* color:#fbcc70; */
+    /* color: rgb(228, 104, 21); */
+    background: linear-gradient(to right, #ba9b0a, #c69a00, #d39800, #e09500, #ed9200, #ec9000, #eb8f00, #ea8d00, #db8d00, #cd8d01, #bf8c07, #b28a0f);
+    -webkit-background-clip: text;
+    color: transparent;
     font-size: 3rem;
     margin-top: 3px;
-    font-weight: 540;
+    font-weight: 546;
 }
 
 .buttonR{
@@ -89,12 +98,16 @@
     margin-top: 9px;
     font-weight: 600;
     cursor: pointer;
-    background-color: #f59d3c;
+    background-image: linear-gradient(to right, #ba9b0a, #c69a00, #d39800, #e09500, #ed9200, #ec9000, #eb8f00, #ea8d00, #db8d00, #cd8d01, #bf8c07, #b28a0f);
+    /* background-color: rgb(228, 104, 21); */
+    /* background-color: #f59d3c; */
 }
+
 
 .buttonR:hover{
     /* background-color: #ffffff; */
-    background-color: #fbcc70;
+    background-color: brown;
+    /* background-color: #fbcc70; */
     
 }
 

@@ -13,7 +13,13 @@
 }
 
 .login{
-    background-color:rgb(204, 65, 65);
+    /* background-color:rgb(204, 65, 65); */
+    /* background-color: black; */
+    background-image: linear-gradient(to right, #000000, #0c0c0c, #151414, #1c1b1b, #232121, #252323, #272525, #292727, #262525, #242222, #212020, #1f1e1e);
+    /* background-image: linear-gradient(to right, #000000, #111010, #1b1b1b, #252525, #302f2f, #343333, #393838, #3d3c3c, #3c3b3b, #3b3b3b, #3a3a3a, #393939); */
+    /* background-image: linear-gradient(to right, #000000, #060405, #0c0909, #110d0d, #151010, #1b1717, #211d1d, #282323, #332f2f, #3f3b3b, #4b4747, #585454); */
+    /* background-image: linear-gradient(to right, #1a1414, #171111, #130e0e, #0e0a0a, #080606, #100e0e, #151414, #1a1919, #282727, #383535, #474444, #585454); */
+    /* background-image: linear-gradient(to left, #2c2b2b, #323131, #393737, #3f3d3d, #464343, #4b4848, #504c4c, #555151, #5a5656, #5e5b5b, #636060, #686565); */
     height:80vh;
     width:90vh;
     border-radius: 40px;
@@ -43,7 +49,7 @@
 
 .carosel img{
     height: 583px;
-    width: 435px;
+    width: 445px;
     border-radius: 40px;
     box-shadow:
   2.8px 2.8px 2.2px rgba(0, 0, 0, 0.045),
@@ -63,7 +69,7 @@
 }
 
 .loginInput{
-    background-color: #f3eded;
+    background-color: #d3cdcd;
     border-radius: 4px;
     font-weight: 770;
     border-style: none;
@@ -73,10 +79,12 @@
 }
 
 .header{
-    color:#fbcc70;
     font-size: 3rem;
     margin-top: 3px;
     font-weight: 540;
+    background: linear-gradient(to right, #ba9b0a, #c69a00, #d39800, #e09500, #ed9200, #ec9000, #eb8f00, #ea8d00, #db8d00, #cd8d01, #bf8c07, #b28a0f);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .buttonL{
@@ -89,12 +97,20 @@
     margin-top: 9px;
     font-weight: 600;
     cursor: pointer;
-    background-color: #f59d3c;
+    /* background-color: #f59d3c; */
+    /* background-color: darkorange; */
+    background-image: linear-gradient(to right, #ba9b0a, #c69a00, #d39800, #e09500, #ed9200, #ec9000, #eb8f00, #ea8d00, #db8d00, #cd8d01, #bf8c07, #b28a0f);
+    /* background-color: rgb(228, 104, 21); */
+}
+
+::placeholder{
+    color:#454444;
 }
 
 .buttonL:hover{
-    /* background-color: #ffffff; */
-    background-color: #fbcc70;
+    /* background-color: brown; */
+    /* background-color: rgb(228, 104, 21); */
+    background-color: brown;
     
 }
 

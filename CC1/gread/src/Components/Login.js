@@ -1,8 +1,10 @@
 import { useState } from 'react';
 // import {Route} from 'react';
 import { useNavigate } from 'react-router-dom';
-import Carosel from '../Assests/Images/Carosel.webp';
+// import Carosel from '../Assests/Images/Carosel.webp';
+import BookCover from '../Assests/Images/wonderBloom.webp';
 import NavBar from '../Components/NavBar';
+import '../Assests/CSS/NavBar.css'
 
 const Login = () => {
 
@@ -48,7 +50,7 @@ const Login = () => {
                     </div> */}
                 </div>
                 <div className="carosel">
-                    <img src={Carosel} alt='Img' />
+                    <img src={BookCover} alt='Img' />
                 </div>
             </div>
         </>

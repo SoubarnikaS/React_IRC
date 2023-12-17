@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Carosel from '../Assests/Images/Carosel.webp';
+import Carosel from '../Assests/Images/wonderBloom.webp';
 import NavBar from '../Components/NavBar';
 
 const Register = () => {
@@ -53,7 +53,7 @@ const Register = () => {
                 <div className="register">
                     <form action="#" className="registerF" onSubmit={handleSubmit}>
                         <p className="header">Register</p>
-                        <input type="text" id="userR" className="registerInput" placeholder='Username' required value={username} onChange={handleUsernameChange} />
+                        <input type="text" id="userR" className="registerInput" placeholder='Username' required value={username} onChange={handleUsernameChange}/>
                         <input type="email" id="emailR" className="registerInput" placeholder='Email' required value={email} onChange={handleEmailChange} />
                         <input type="password" id="passR" className="registerInput" placeholder='Password' required value={password} onChange={handlePasswordChange} />
                         <input type="password" id="passCR" className="registerInput" placeholder='Confirm Password' required value={confirmPassword} onChange={handleConfirmPasswordChange} />
