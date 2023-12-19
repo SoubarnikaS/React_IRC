@@ -1,0 +1,350 @@
+.exBody{
+    background-color: rgb(39, 193, 78);
+    height:490vh;
+    width:100vw;
+    margin:0;
+    /* position: relative; */
+        /* background-image: linear-gradient(to right, #a8a8a8, #b8b8b8, #c8c8c8, #d8d8d8, #e9e9e9, #e9e9e9, #e9e9e9, #e9e9e9, #d8d8d8, #c8c8c8, #b8b8b8, #a8a8a8); */
+
+    /* display:flex; */
+}
+
+.exWrapper{
+    height:490vh;
+    width:90vw;
+    margin:5%;
+    position: absolute;
+    /* background-color: rgb(139, 139, 143); */
+}
+
+.A{
+  height:75vh;
+  width:80vw;
+  /* background-color: rgb(216, 172, 172); */
+  margin-left:5%;
+  padding-bottom: 45%;
+  
+}
+
+.M{
+  height:75vh;
+  width:80vw;
+  /* background-color: brown; */
+  margin-left:5%;
+  padding-bottom: 45%;
+}
+
+.R{
+  height:75vh;
+  width:80vw;
+  /* background-color: brown; */
+  margin-left:5%;
+  padding-bottom: 45%;
+}
+
+.S{
+  height:75vh;
+  width:80vw;
+  /* background-color: brown; */
+  margin-left:5%;
+  padding-bottom: 45%;
+}
+
+.P{
+  height:75vh;
+  width:80vw;
+  /* background-color: brown; */
+  margin-left:5%;
+  padding-bottom: 45%;
+}
+
+.Adventure{
+    height:65vh;
+    width:80vw;
+    margin:3%; 
+    margin-left:4.3%;
+    position: absolute; 
+    /* background-color: rgb(129, 116, 116); */
+    
+}
+
+.advTitle{
+    font-family: Poppins;
+    font-size: 2rem;
+    margin-left: 7%;
+    color:rgb(239, 95, 12);
+}
+
+.advLine{
+    height:0.2vh;
+    width:75vw;
+    margin-left:6.9%;
+    background-color: black;
+}
+
+
+.Mystery{
+  height:65vh;
+  width:80vw;
+  margin:3%;
+  margin-left:4.3%;
+  position: absolute; 
+  /* background-color: rgb(129, 116, 116); */
+  
+}
+
+.MysTitle{
+  font-family: Poppins;
+  font-size: 2rem;
+  margin-left: 7%;
+  color:rgb(239, 95, 12);
+  /* margin-bottom:-60%; */
+  /* background-color: aqua; */
+}
+
+.MysLine{
+  height:0.2vh;
+  width:75vw;
+  margin-left:6.9%;
+  /* margin-top:0.4%; */
+  background-color: black;
+}
+
+.Romance{
+  height:65vh;
+  width:80vw;
+  margin:3%;
+  margin-left:4.3%;
+  position: absolute; 
+  /* background-color: rgb(129, 116, 116); */
+  
+}
+
+.RomTitle{
+  font-family: Poppins;
+  font-size: 2rem;
+  margin-left: 7%;
+  color:rgb(239, 95, 12);
+  /* margin-bottom:-60%; */
+  /* background-color: aqua; */
+}
+
+.RomLine{
+  height:0.2vh;
+  width:75vw;
+  margin-left:6.9%;
+  /* margin-top:0.4%; */
+  background-color: black;
+}
+
+.Scientific{
+  height:65vh;
+  width:80vw;
+  margin:3%;
+  margin-left:4.3%;
+  position: absolute; 
+  /* background-color: rgb(129, 116, 116); */
+  
+}
+
+.SciTitle{
+  font-family: Poppins;
+  font-size: 2rem;
+  margin-left: 7%;
+  color:rgb(239, 95, 12);
+  /* margin-bottom:-60%; */
+  /* background-color: aqua; */
+}
+
+.SciLine{
+  height:0.2vh;
+  width:75vw;
+  margin-left:6.9%;
+  /* margin-top:0.4%; */
+  background-color: black;
+}
+
+.Philosophy{
+  height:65vh;
+  width:80vw;
+  margin:3%;
+  margin-left:4.3%;
+  position: absolute; 
+  /* background-color: rgb(129, 116, 116); */
+  
+}
+
+.PhyTitle{
+  font-family: Poppins;
+  font-size: 2rem;
+  margin-left: 7%;
+  color:rgb(239, 95, 12);
+  /* margin-bottom:-60%; */
+  /* background-color: aqua; */
+}
+
+.PhyLine{
+  height:0.2vh;
+  width:75vw;
+  margin-left:6.9%;
+  /* margin-top:0.4%; */
+  background-color: black;
+}
+
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1200px;
+  padding-bottom:80px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+.card_image {
+  position: relative;
+  height: 250px;
+}
+
+.card_image img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+.card_price {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 0.25rem;
+  background-color: #c89b3f;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card_price span {
+  font-size: 12px;
+  margin-top: -2px;
+}
+
+.note {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 4px 8px;
+  border-radius: 0.25rem;
+  background-color: #c89b3f;
+  font-size: 14px;
+  font-weight: 700;
+  height:10vh;
+}
+
+@media (width: 80rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (width: 96rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color:white;
+  border-radius: 0.25rem;
+  height:60vh;
+  width:17vw;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  position: relative;
+  padding: 16px 12px 32px 24px;
+  margin: 16px 8px 8px 0;
+  max-height: 300px;
+  font-family: Poppins;
+  overflow-y: scroll;
+}
+
+.card_content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.card_content::-webkit-scrollbar-track {
+  box-shadow: 0;
+  border-radius: 0;
+}
+
+.card_content::-webkit-scrollbar-thumb {
+  background: #c89b3f;
+  border-radius: 15px;
+}
+
+.card_title {
+  position: relative;
+  margin: 0 0 24px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card_title::after {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #c89b3f;
+  content: "";
+}
+
+hr {
+  margin: 24px auto;
+  width: 50px;
+  border-top: 2px solid #c89b3f;
+}
+
+.card_text p {
+  margin: 0 0 24px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family:Poppins;
+}
+
+.card_text p:last-child {
+  margin: 0;
+}
+
+
+

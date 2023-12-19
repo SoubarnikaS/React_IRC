@@ -58,6 +58,7 @@
 
 ::placeholder{
     color:#454444;
+    font-family: Poppins;
 }
 
 .registerF{
@@ -86,6 +87,7 @@
     font-size: 3rem;
     margin-top: 3px;
     font-weight: 546;
+    font-family: Poppins;
 }
 
 .buttonR{
@@ -98,6 +100,7 @@
     margin-top: 9px;
     font-weight: 600;
     cursor: pointer;
+    font-family: Poppins;
     background-image: linear-gradient(to right, #ba9b0a, #c69a00, #d39800, #e09500, #ed9200, #ec9000, #eb8f00, #ea8d00, #db8d00, #cd8d01, #bf8c07, #b28a0f);
     /* background-color: rgb(228, 104, 21); */
     /* background-color: #f59d3c; */

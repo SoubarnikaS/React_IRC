@@ -5,6 +5,10 @@ import { useNavigate } from 'react-router-dom';
 import BookCover from '../Assests/Images/wonderBloom.webp';
 import NavBar from '../Components/NavBar';
 import '../Assests/CSS/NavBar.css'
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+
+
 
 const Login = () => {
 
@@ -25,16 +29,29 @@ const Login = () => {
         e.preventDefault();
         if (username === 'Zaynaa' && password === '1234') {
             // <Route path = '/register'></Route>
+           
             history('/home')
         } else {
             setUsername("");
             setPassword("");
-            alert('Invalid username or password');
+            toast.error('Incorrect Username/Password!', {
+                position: "bottom-center",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+            });
+            // alert('Invalid username or password');
         }
     };
+
     return (
         <>
             <NavBar />
+            <div class = "loginBody">
             <div className="loginWrapper">
                 <div className="login">
                     <form action="#" class="loginF" onSubmit={handleSubmit}>
@@ -53,6 +70,20 @@ const Login = () => {
                     <img src={BookCover} alt='Img' />
                 </div>
             </div>
+            </div>
+            <ToastContainer
+                position="top-center"
+                autoClose={3000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="dark"
+            />
+           
         </>
     )
 }
