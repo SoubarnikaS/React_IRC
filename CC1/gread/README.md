@@ -3,17 +3,40 @@
 
 
 **Login Page**
-![Screenshot 2023-12-13 160505](https://github.com/SoubarnikaS/React_IRC/assets/125237552/8049a05e-9a8a-4356-a19b-7f071c8c846d)
+![Screenshot 2023-12-20 222749](https://github.com/SoubarnikaS/React_IRC/assets/125237552/6638cd54-3122-4f2b-8d16-5526522ccd0b)
+
 
 **Login Page Credentials**
-![Screenshot 2023-12-13 160525](https://github.com/SoubarnikaS/React_IRC/assets/125237552/230cf982-589f-4cd1-bd2c-503d0c80d39c)
+![Screenshot 2023-12-20 222806](https://github.com/SoubarnikaS/React_IRC/assets/125237552/3607c0d0-fd0e-4578-9aa8-5cdc341b4bf3)
 
 **Register Page**
-![Screenshot 2023-12-13 160720](https://github.com/SoubarnikaS/React_IRC/assets/125237552/e53314f7-43cc-4f5e-a727-a0d7b97a6a2d)
+![Screenshot 2023-12-20 222709](https://github.com/SoubarnikaS/React_IRC/assets/125237552/970f1343-f53f-4e35-b36d-20746c1ba7d7)
 
 
 **Register Page Credentials**
-![Screenshot 2023-12-13 160742](https://github.com/SoubarnikaS/React_IRC/assets/125237552/c503138e-a4bb-47d3-9c52-7032c47231f1)
+![Screenshot 2023-12-20 222728](https://github.com/SoubarnikaS/React_IRC/assets/125237552/77d6a263-d756-4fad-9f55-51835e5f9c24)
 
 **Home Page**
-![Screenshot 2023-12-13 160709](https://github.com/SoubarnikaS/React_IRC/assets/125237552/f6fb2a7d-41dd-4609-a390-ca1bde8f41a3)
+Uploading goodReads_home.mp4…
+
+**Add to Favourites**
+
+Uploading goodReads_fav.mp4…
+
+**Add to MyList**
+
+Uploading goodReads_list.mp4…
+
+**Explore Page**
+
+Uploading goodReads_explore.mp4…
+
+
+
+
+
+
+
+
+
+
