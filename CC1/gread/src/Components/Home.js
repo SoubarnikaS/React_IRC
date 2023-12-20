@@ -1,5 +1,5 @@
 import ONav from "./ONav";
-
+import { Link } from "react-router-dom";
 
 const Home = () => {
 
@@ -12,12 +12,12 @@ const Home = () => {
                 <div className="sidePanel">
                     <div className="sideDiv">
                         <div className="sideButtons">
-                            <li>Highest Rated Novels</li>
-                            <li>Timeless Classics</li>
-                            <li>Book Donations</li>
-                            <li>Editor's Picks</li>
-                            <li>Pre-Owned Library</li>
-                            <li>Reader's Community</li>
+                            <li className="listH">Highest Rated Novels</li>
+                            <li className="listH">Timeless Classics</li>
+                            <li className="listH">Book Donations</li>
+                            <li className="listH">Editor's Picks</li>
+                            <li className="listH">Pre-Owned Library</li>
+                            <li className="listH">Reader's Community</li>
                         </div>
                         <li className="thoughts">What's on your mind?</li>
                     </div>
@@ -44,7 +44,9 @@ const Home = () => {
                                 <div class="content">
                                     <div class="back">
                                         <div class="back-content">
+                                            <Link to ='/fav' style={{textDecoration:'none',color:'rgb(247, 133, 68)'}}>
                                             <strong>Add to Favourites</strong>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -53,7 +55,9 @@ const Home = () => {
                                 <div class="content">
                                     <div class="back">
                                         <div class="back-content">
+                                        <Link to ='/readList' style={{textDecoration:'none',color:'rgb(247, 133, 68)'}}>
                                             <strong>My Reading List</strong>
+                                        </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -82,15 +86,6 @@ const Home = () => {
 
                 </div>
 
-
-                {/* <div class="black-box"></div>
-                <div class="vote">
-                
-                </div>
-
-                <div className="ex">
-                    
-                </div> */}
 
             </div>
 

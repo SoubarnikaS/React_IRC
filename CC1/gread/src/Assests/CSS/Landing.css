@@ -94,13 +94,37 @@ body{
     cursor:pointer;
     height: 3.3rem;
     width: 10rem;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bolder;
-    /* font-family: Poppins; */
+    font-family: Poppins;
     color: rgb(0, 0, 0);
     border: none;
-    border-radius: 10px;;
+    border-radius: 10px;
     background-color: rgb(228, 104, 21);
     /* background-color: rgb(255, 255, 255); */
 
+}
+
+.exploreBtn{
+    cursor:pointer;
+    height: 3.2rem;
+    width: 15rem;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: Poppins;
+    color: rgb(0, 0, 0);
+    border: none;
+    /* margin-right:100px; */
+    border-radius: 10px;;
+    background-color: rgb(228, 104, 21);
+    /* background-color: rgb(255, 255, 255); */
+    
+}
+
+.exp{
+    /* height:2vh; */
+    /* width:2vw; */
+    padding-top:3%;
+    margin-left: 25%;
+    /* background-color: blanchedalmond; */
 }

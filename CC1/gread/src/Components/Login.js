@@ -28,14 +28,25 @@ const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (username === 'Zaynaa' && password === '1234') {
-            // <Route path = '/register'></Route>
-           
-            history('/home')
+            toast.info('Dive in bookWorm!', {
+                position: "bottom-right",
+                autoClose: 1500,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+            });
+            setTimeout(() => {
+                history('/home')
+            }, 1800)
+
         } else {
             setUsername("");
             setPassword("");
             toast.error('Incorrect Username/Password!', {
-                position: "bottom-center",
+                position: "bottom-right",
                 autoClose: 3000,
                 hideProgressBar: false,
                 closeOnClick: true,
@@ -51,25 +62,25 @@ const Login = () => {
     return (
         <>
             <NavBar />
-            <div class = "loginBody">
-            <div className="loginWrapper">
-                <div className="login">
-                    <form action="#" class="loginF" onSubmit={handleSubmit}>
-                        <p class="header">Login</p>
-                        <input type="text" id="userN" class="loginInput" placeholder='Username' required value={username} onChange={handleUsernameChange} />
-                        <input type="password" id="passW" class="loginInput" placeholder='Password' required value={password} onChange={handlePasswordChange} />
-                        <input type="submit" id="submitL" class="buttonL" value="Login" />
-                    </form>
-                    {/* <div class = "navi">
+            <div class="loginBody">
+                <div className="loginWrapper">
+                    <div className="login">
+                        <form action="#" class="loginF" onSubmit={handleSubmit}>
+                            <p class="header">Login</p>
+                            <input type="text" id="userN" class="loginInput" placeholder='Username' required value={username} onChange={handleUsernameChange} />
+                            <input type="password" id="passW" class="loginInput" placeholder='Password' required value={password} onChange={handlePasswordChange} />
+                            <input type="submit" id="submitL" class="buttonL" value="Login" />
+                        </form>
+                        {/* <div class = "navi">
                         <Link to ='/register'>
                             <p class = "new">New to goodReads? Register</p>
                         </Link>
                     </div> */}
+                    </div>
+                    <div className="carosel">
+                        <img src={BookCover} alt='Img' />
+                    </div>
                 </div>
-                <div className="carosel">
-                    <img src={BookCover} alt='Img' />
-                </div>
-            </div>
             </div>
             <ToastContainer
                 position="top-center"
@@ -83,7 +94,20 @@ const Login = () => {
                 pauseOnHover
                 theme="dark"
             />
-           
+
+            <ToastContainer
+                position="bottom-right"
+                autoClose={1500}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="dark"
+            />
+
         </>
     )
 }

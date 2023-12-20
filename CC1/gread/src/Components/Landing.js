@@ -36,6 +36,13 @@ const Landing =()=>{
                                 </li>
                             </Link>
                         </ul>
+                        <div className="exp">
+                            <Link to ='/explore'>
+                                <li>
+                                    <input type = "submit" value = "Explore" className = "exploreBtn"></input>
+                                </li>
+                            </Link>
+                            </div>
                     </div>
                 </div>
             </div>

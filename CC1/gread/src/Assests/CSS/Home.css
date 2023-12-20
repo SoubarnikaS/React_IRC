@@ -24,6 +24,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  backdrop-filter: blur(2px);
   /* background-color: blueviolet; */
 }
 
@@ -36,7 +37,7 @@
   padding-top: 25%;
 }
 
-.sideButtons li {
+.listH {
   height: 6.5vh;
   width: 19.5vw;
   font-size: 1rem;
@@ -56,7 +57,7 @@
   cursor: pointer;
 }
 
-.sideButtons li:hover {
+.listH:hover {
   background-color: transparent;
   /* border: 1px solid rgb(245, 201, 24); */
   box-shadow: 0 0 0 1px #ba9b0a, 0 0 0 1px #c69a00, 0 0 0 1px #d39800, 0 0 0 1px #e09500, 0 0 0 1px #ed9200, 0 0 0 1px #ec9000, 0 0 0 1px #eb8f00, 0 0 0 1px #ea8d00, 0 0 0 1px #db8d00, 0 0 0 1px #cd8d01, 0 0 0 1px #bf8c07, 0 0 0 1px #b28a0f;
@@ -118,12 +119,14 @@
   /* background-color: red; */
   width: 80vw;
   height: 90vh;
-  background-color: #2e2c2c;
-  /* background-image: linear-gradient(to right, #a8a8a8, #b8b8b8, #c8c8c8, #d8d8d8, #e9e9e9, #e9e9e9, #e9e9e9, #e9e9e9, #d8d8d8, #c8c8c8, #b8b8b8, #a8a8a8); */
-
+  /* background-color: #2e2c2c; */
+  /* background-image: url("https://img.freepik.com/premium-photo/inspiring-office-interior-design-vintage-style-generative-ai-aig-31_31965-196117.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696636800&semt=ais"); */
+  /* background-image: url(C:\Users\souba\OneDrive\Documents\GitHub\React_IRC\CC1\gread\src\Assests\Images\maybe.jpg); */
+  /* background-image: url("https://brilliantio.com/wp-content/uploads/2023/07/where-to-write-books_210.png.webp"); */
   background-image: url(C:\Users\souba\OneDrive\Documents\GitHub\React_IRC\CC1\gread\src\Assests\Images\newBg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+ 
 }
 
 .options {
@@ -199,7 +202,7 @@
 }
 
 .back {
-  background-color: #151515;
+  background-color: #3e3d3d;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -232,7 +235,7 @@
   width: 99%;
   height: 99%;
   /* background-color: #151515; */
-  background-color: #151515;
+  background-color: #211f1f;
   border-radius: 5px;
   color: rgb(247, 133, 68);
   /* color: white; */
