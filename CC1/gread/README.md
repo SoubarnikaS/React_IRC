@@ -30,22 +30,23 @@
 
 
 **Explore Page**
-![Screenshot 2023-12-21 160119](https://github.com/SoubarnikaS/React_IRC/assets/125237552/bf25e8c3-651c-407b-baf1-d76e0048f9d6)
-![Screenshot 2023-12-21 160108](https://github.com/SoubarnikaS/React_IRC/assets/125237552/ed91c19f-5301-4d00-81f7-0989665b00a2)
-![Screenshot 2023-12-21 160051](https://github.com/SoubarnikaS/React_IRC/assets/125237552/b36d84da-5e7a-4ea2-978e-687462168900)
-![Screenshot 2023-12-21 160228](https://github.com/SoubarnikaS/React_IRC/assets/125237552/4d1cf4e3-6ce4-4c8f-8ef3-652fca64721f)
-![Screenshot 2023-12-21 160220](https://github.com/SoubarnikaS/React_IRC/assets/125237552/7edbaae7-51d4-4726-8748-b1cda342d816)
-![Screenshot 2023-12-21 160207](https://github.com/SoubarnikaS/React_IRC/assets/125237552/64c9224e-5bd7-479d-9017-d1c28a793f90)
-![Screenshot 2023-12-21 160155](https://github.com/SoubarnikaS/React_IRC/assets/125237552/a1cc8cc3-e85c-4f18-9b71-8c9889010241)
-![Screenshot 2023-12-21 160146](https://github.com/SoubarnikaS/React_IRC/assets/125237552/4d7f1555-aff0-4b62-a346-9055058235a6)
-![Screenshot 2023-12-21 160139](https://github.com/SoubarnikaS/React_IRC/assets/125237552/d2fef81d-ebe4-4740-a140-71eb29a49545)
-![Screenshot 2023-12-21 160129](https://github.com/SoubarnikaS/React_IRC/assets/125237552/6e58e38e-b851-48cf-8645-e578120e0325)
+![Screenshot 2023-12-21 160119](https://github.com/SoubarnikaS/React_IRC/assets/125237552/604b5adf-4498-4745-bb62-bedef69c2670)
 
+![Screenshot 2023-12-21 160129](https://github.com/SoubarnikaS/React_IRC/assets/125237552/72cae6bf-9526-4820-be8b-d266946f8b9f)
 
+![Screenshot 2023-12-21 160139](https://github.com/SoubarnikaS/React_IRC/assets/125237552/122c3756-afec-4d49-a6ef-a8c435b05d65)
 
+![Screenshot 2023-12-21 160146](https://github.com/SoubarnikaS/React_IRC/assets/125237552/f9e4771a-d5d8-40a4-b65e-ac4a705725c5)
 
+![Screenshot 2023-12-21 160155](https://github.com/SoubarnikaS/React_IRC/assets/125237552/61abd166-390e-4fc0-8f04-ef995d8fe489)
 
+![Screenshot 2023-12-21 160207](https://github.com/SoubarnikaS/React_IRC/assets/125237552/ff0bb112-ad1d-4a9b-be16-1ece9567ef21)
 
+**Rating**
+![Screenshot 2023-12-21 160220](https://github.com/SoubarnikaS/React_IRC/assets/125237552/996ea98d-75b8-4b3a-9249-ac407959bad5)
+
+**Footer**
+![Screenshot 2023-12-21 160228](https://github.com/SoubarnikaS/React_IRC/assets/125237552/f988b19c-6b3c-40cb-bc07-611fa905f767)
 
 
 
