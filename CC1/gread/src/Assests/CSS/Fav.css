@@ -42,7 +42,7 @@
     }
     45%,
     55% {
-      width: 12.2em;
+      width: 16.2em;
     } /* adjust width based on content */
     90%,
     100% {
@@ -57,7 +57,22 @@
     font-family: "Courier New", Courier, monospace;
     font-size: 1em;
     padding: 1.5em 1em;
-    width: 17em;
+    width: 15em;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .terminal-loaderRL {
+    border: 0.1em solid #333;
+    background-color: #1a1a1a;
+    color: #0f0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    padding: 1.5em 1em;
+    width: 18em;
     margin: 100px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 4px;

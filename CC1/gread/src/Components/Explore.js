@@ -378,7 +378,7 @@ const Explore = () => {
                                         <div class="card">
                                             <div class="card_image">
                                                 <img src="https://ik.imagekit.io/panmac/tr:f-auto,di-placeholder_portrait_aMjPtD9YZ.jpg,w-171/edition/9781509841059.jpg" alt="a Reuben sandwich on wax paper." />
-                                                <span class="card_price"><span>R</span>5</span>
+                                                <span class="card_price"><span></span>🤍</span>
                                             </div>
                                             <div class="card_content">
                                                 <h2 class="card_title">World on Wing</h2>
@@ -415,7 +415,7 @@ const Explore = () => {
                                         <div class="card">
                                             <div class="card_image">
                                                 <img src="https://ik.imagekit.io/panmac/tr:f-auto,di-placeholder_portrait_aMjPtD9YZ.jpg,w-171/edition/9781035026173.jpg" alt="a Reuben sandwich on wax paper." />
-                                                <span class="card_price"><span>R</span>5</span>
+                                                <span class="card_price"><span></span>🤍</span>
                                             </div>
                                             <div class="card_content">
                                                 <h2 class="card_title">The Geek Way</h2>
@@ -444,33 +444,33 @@ const Explore = () => {
                 </div>
                 <div class="footer__col">
                     <h4>Company</h4>
-                    <p class = "a">Network</p>
-                    <p class = "a">Business</p>
-                    <p class = "a">Franchise</p>
-                    <p class = "a">Partnership</p>
+                    <p class="a">Network</p>
+                    <p class="a">Business</p>
+                    <p class="a">Franchise</p>
+                    <p class="a">Partnership</p>
                 </div>
                 <div class="footer__col">
                     <h4>About Us</h4>
-                    <p class = "a">Blogs</p>
-                    <p class = "a">Security</p>
-                    <p class = "a">Careers</p>
-                    <p class = "a">Connections</p>
+                    <p class="a">Blogs</p>
+                    <p class="a">Security</p>
+                    <p class="a">Careers</p>
+                    <p class="a">Connections</p>
                 </div>
                 <div class="footer__col">
                     <h4>Contact</h4>
-                    <p class = "a">Book Kits</p>
-                    <p class = "a">Contact Us</p>
-                    <p class = "a">Privacy Policy</p>
-                    <p class = "a">Terms & Conditions</p>
+                    <p class="a">Book Kits</p>
+                    <p class="a">Contact Us</p>
+                    <p class="a">Privacy Policy</p>
+                    <p class="a">Terms & Conditions</p>
                 </div>
-                
+
             </footer>
-                <div class="footer__socials">
+            <div class="footer__socials">
                 <Facebook className="footerIcon" />
-                <Twitter className="footerIcon"  />
+                <Twitter className="footerIcon" />
                 <Instagram className="footerIcon" />
                 <Linkedin className="footerIcon" />
-                </div>
+            </div>
         </>
     )
 }

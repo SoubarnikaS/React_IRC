@@ -7,7 +7,7 @@ const ReadingList = () => {
             <ONav />
             <div className="favBody">
 
-                <div class="terminal-loader">
+                <div class="terminal-loaderRL">
                     <div class="terminal-header">
                         <div class="terminal-title">Status</div>
                         <div class="terminal-controls">
