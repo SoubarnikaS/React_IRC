@@ -19,7 +19,7 @@ const Home = () => {
                             <li className="listH">Pre-Owned Library</li>
                             <li className="listH">Reader's Community</li>
                         </div>
-                        <li className="thoughts">What's on your mind?</li>
+                        <li className="thoughts  text-focus-in ">What's on your mind?</li>
                     </div>
                 </div>
                 <div className="sideWrapper">
