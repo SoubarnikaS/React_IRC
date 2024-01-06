@@ -1,0 +1,236 @@
+.contentBodyM{
+    height:95vh;
+    width:78vw;
+    border-radius:5px;
+    /* margin-top:1%; */
+    margin:0.7% 0.5% 2% -0.7%;
+    background-color: #141414;
+    position: absolute;
+}
+
+.spotlight{
+    height:40vh;
+    width:75vw;
+    margin:2%;
+    display: flex;
+    gap:0rem;
+    border-radius: 7px;
+    background-color: #212121;
+}
+
+.greetingsM{
+    font-size: 2.5rem;
+    /* font-weight: 530; */
+    margin-left: 2%;
+    color:white;
+}
+
+.recentM{
+    height:23vh;
+    width:75vw;
+    margin-left:1.8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    gap:0.7rem;
+}
+
+.top3{
+    gap:1%;
+    display: flex;
+}
+
+.songs{
+    height:9vh;
+    width:25vw;
+    display:flex;
+    border-radius:7px;
+    background-color:	#212121;
+    cursor: pointer;
+}
+
+.songs:hover{
+    background-color: #474646;
+    cursor: pointer;
+}
+
+.spotlightCover{
+    height:40vh;
+    width:20vw;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(66, 154, 230);  */
+}
+
+.coverS{
+    height:35vh;
+    width:17vw;
+    /* background-color: bisque; */
+}
+
+.coverS img{
+    height:35vh;
+    width:17vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.spotlightContent{
+    height:34vh;
+    width:54.5vw;
+    margin:2% 0% 2% 0%;
+    /* background-color: aliceblue; */
+
+}
+
+.playlist{
+    height:3vh;
+    width:53.5vw;
+    margin-top:2%;
+    display: flex;
+    gap:40rem;
+    color:white;
+    /* background-color: aquamarine; */
+}
+
+.playDesc{
+    height:5vh;
+    width:10vw;
+    font-weight: 100;
+    /* background-color: black; */
+}
+
+.sponsored{
+    height:5vh;
+    width:10vw;
+    font-weight: 100;
+    /* background-color: black; */
+}
+
+.title{
+    height:10vh;
+    width:40vw;
+    color:white;
+    cursor: pointer;
+    font-size: 3.6rem;
+    /* font-weight: bold; */
+    /* background-color: aliceblue;  */
+}
+
+.description{
+    height:5vh;
+    width:55vw;
+    color:white;
+    font-size: 1.1rem;
+    /* font-family:750; */
+    margin-top: 2%;
+    /* background-color: aliceblue;  */
+}
+
+.buttonsRow{
+    height:10vh;
+    width:55vw;
+    margin:1%;
+    /* background-color: aqua; */
+}
+
+.buttons{
+    height:10vh;
+    width:30vw;
+    display: flex;
+    gap:0rem
+    /* background-color: rgb(47, 49, 49); */
+}
+.play{
+    height:8vh;
+    width:8vw;
+}
+
+.playB{
+    height:7vh;
+    width:7vw;
+    border-radius: 30px;
+    border:none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight:700;
+    background-color: 	#1db954;
+}
+
+.playB:hover{
+    font-size: 1.05rem;
+    font-weight:790;
+    transform: scale(1.03);
+    background-color: 	#1db954;
+}
+
+.followB{
+    height:7vh;
+    width:7vw;
+    color: white;
+    border:1px solid white;
+    background-color: transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight:700;
+}
+
+.followB:hover{
+    font-size: 1.05rem;
+    font-weight:790; 
+    transform: scale(1.03);
+}
+
+.songCover{
+    height:100%;
+    width:20%;
+    /* background-color: #1db954; */
+}
+
+.songCover img{
+    height:9vh;
+    width:4.5vw;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.songTitle{
+    height:9vh;
+    width:19.4vw;
+    display: flex;
+    align-items: center;
+}
+
+.titleM{
+    color:white;
+    /* font-weight:545 ; */
+
+}
+
+.pl{
+    display: none;
+    position: absolute;
+    height:5vh;
+    width:2.5vw;
+    background-color: #1db954;
+    border-radius: 53%;
+    margin-left:20%;
+}
+
+.songTitle:hover .pl{
+    display: block;
+    align-items: flex-end;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.053),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.077),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.095),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.113),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.137),
+  100px 100px 80px rgba(0, 0, 0, 0.19)
+    
+}

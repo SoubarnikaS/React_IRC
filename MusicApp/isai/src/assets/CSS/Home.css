@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Secular%20One');
+
+
+body{
+    margin:0;
+    font-family: Secular One;
+}
+
+.homeBodyM{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    background-color:#000000;
+}
+
+.sidePanelM{
+    height:100vh;
+    width:22vw;
+    /* background-color: #212121; */
+}
+
+.topSide{
+    height:15vh;
+    width:20vw;
+    margin: 3%;
+    /* display: grid; */
+    font-size: 1.3rem;
+    border-radius: 5px;
+    color:rgb(148, 145, 145);
+    background-color: #141414;
+    
+
+}
+
+.homeM{
+    padding:6%;
+    cursor: pointer;
+}
+
+.searchM{
+    padding-left:5%;
+    cursor: pointer;
+}
+
+.homeM:hover{
+    color:white;
+}
+
+.searchM:hover{
+    color:white;
+}
+
+.topLinks{
+    list-style: none;
+    padding:0 0 0 4rem;
+}
+
+.top{
+    padding:3%;
+    cursor: pointer;
+}
+
+.top:hover{
+    color: rgb(235, 231, 231);
+    cursor: pointer;
+}
+
+.bottomSide{
+    height:79vh;
+    width:20vw;
+    margin:3%;
+    border-radius: 5px;
+    background-color: #141414;
+
+}
+

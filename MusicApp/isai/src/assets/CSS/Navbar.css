@@ -1,0 +1,27 @@
+.navM{
+    height:10vh;
+    width:77vw;
+    background-color: transparent;
+    /* background-color: rgb(48, 37, 37); */
+    position: sticky;
+    display: flex;
+    /* gap:2rem; */
+    /* margin-left: -2%; */
+    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+.navv{
+    list-style: none;
+    cursor: pointer;
+    padding: 1.2%;
+}
+
+.navLinks{
+    color:rgb(195, 186, 186);
+    /* padding:3%; */
+}
+
+.navLinks:hover{
+    color:white;
+}
